@@ -1,5 +1,3 @@
-print('BUENOS DÍAS Y BIENVENIDO A CALCULAR LA VELOCIDAD')
-
 codigo_empleado = input('Código empleado: ')
 valor_hora = float(input('Valor x hora: '))
 horas = float(input('Horas en la semana: '))
