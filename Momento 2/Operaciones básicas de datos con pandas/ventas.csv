@@ -1,0 +1,21 @@
+Producto;Ventas;Mes;Categoria
+Leche;30;Enero;Contado
+Pan;34;Febrero;Credito
+Atun;41;Abril;Contado
+Aceite;65;Junio;Credito
+Queso;12;Agosto;Electronica
+Alpinito;55;Enero;Contado
+Salchichon;89;Junio;Credito
+Huevos;11;Noviembre;Electronica
+Cereal;56;Agosto;Electronica
+Queso crema;90;Octubre;Contado
+Leche;4;Febrero;Electronica
+Pan;94;Marzo;Credito
+Atun;4;Mayo;Contado
+Aceite;2;Julio;Credito
+Queso;72;Septiembre;Electronica
+Alpinito;34;Febrero;Electronica
+Salchichon;2;Julio;Contado
+Huevos;9;Diciembre;Contado
+Cereal;0;Septiembre;Credito
+Queso crema;;Noviembre;Contado
