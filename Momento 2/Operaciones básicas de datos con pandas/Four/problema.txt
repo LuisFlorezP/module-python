@@ -1,0 +1,3 @@
+Situación Problema: Optimización de Programas de Vacunación
+
+La situación consiste en buscar generar estadística para determinar cuales son las vacunas más eficientes y deseadas por los usuarios de la comunidad, permitiendo recibir encuestas de valoración y presupuestar los diferentes valores e inversiones necesarias para dar prioridad a las mas deseadas y necesitadas
