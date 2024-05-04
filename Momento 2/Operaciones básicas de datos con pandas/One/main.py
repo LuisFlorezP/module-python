@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./ventas.csv', sep=';')
+df = pd.read_csv('./ventas.csv', sep=',')
 
 print('\nPrimeras filas del DataFrame:') 
 print(df.head())
