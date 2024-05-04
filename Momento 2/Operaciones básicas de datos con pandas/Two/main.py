@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./temperatura.csv', sep=';')
+df = pd.read_csv('./temperatura.csv', sep=',')
 
 # 1
 print('\nPrimeras filas:')
