@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Análisis de Datos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        .chart {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Informe de Análisis de Datos</h1>
+        <h2>Obtención de Datos</h2>
+        <p>Utilizamos la API de GitHub para obtener información sobre repositorios públicos con más de 10,000 estrellas. La API proporcionó detalles sobre varios repositorios, incluyendo el número de estrellas, forks, y issues abiertos.</p>
+
+        <h2>Análisis de Datos</h2>
+        <p>Los datos obtenidos se cargaron en un DataFrame de Pandas. Exploramos los datos utilizando funciones como <code>head()</code>, <code>info()</code> y <code>describe()</code> para comprender su estructura y contenido.</p>
+
+        <h2>Preprocesamiento de Datos</h2>
+        <p>Se seleccionaron las columnas relevantes y se eliminaron filas con valores nulos. También se convirtieron los tipos de datos a formatos apropiados.</p>
+
+        <h2>Visualización de Datos</h2>
+        <div class="chart">
+            <img src="{{ url_for('static', filename='top_10_repositories.png')}}" alt="Top 10 GitHub Repositories by Stars">
+            <p><strong>Figura 1:</strong> Top 10 repositorios de GitHub por número de estrellas.</p>
+        </div>
+        <div class="chart">
+            <img src="{{ url_for('static', filename='stars_vs_forks.png')}}" alt="Stars vs Forks">
+            <p><strong>Figura 2:</strong> Relación entre estrellas y forks en repositorios de GitHub.</p>
+        </div>
+
+        <h2>Conclusiones</h2>
+        <p>Los gráficos muestran que los repositorios más populares en GitHub (por número de estrellas) incluyen proyectos muy conocidos como FreeCodeCamp y Vue.js. Además, hay una correlación positiva entre el número de estrellas y el número de forks, lo que sugiere que los proyectos más populares también tienden a ser los más copiados.</p>
+    </div>
+</body>
+</html>
