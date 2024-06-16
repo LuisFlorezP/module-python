@@ -1,0 +1,1 @@
+print('Países preferidos:', ['Colombia', 'Argentina', 'Mexico'])
